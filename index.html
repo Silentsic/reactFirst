@@ -10,7 +10,11 @@
   <body>
     <div id="example"></div>
     <script type="text/babel">
-        ReactDOM.render (<div><h3>Hi, it is me!</h3></div>, document.getElementById('example'));
+        class Block extends React.Component{
+            render(){return(<h3>Proger</h3>);}
+        }
+        ReactDOM.render (<Block />,
+        document.getElementById("example"));
     </script>
   </body>
 </html>
